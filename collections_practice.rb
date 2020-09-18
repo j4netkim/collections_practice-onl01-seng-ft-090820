@@ -26,6 +26,13 @@ sort_array_char_count = ["dogs", "cat", "Horses"]
 def swap_elements(array)
   array[1], array[2] = array[2], array[1]
   array
-end 
+end
 
   swap_elements(["blake", "ashley", "scott"])
+
+
+  def reverse_array(array)
+    array.reverse
+  end
+
+  reverse_array([12, 4, 35])
