@@ -15,7 +15,7 @@ sort_array_desc([25, 7, 14])
 
 
 def sort_array_char_count(array)
-  array.sort_by {|str| -str.length}
+  array.sort_by {|str| -array.length}
 end
 
 sort_array_char_count(["dogs", "cat", "Horses"])
