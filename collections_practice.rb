@@ -42,7 +42,6 @@ end
     array.each do |a|
       a[2] = $
     end
-  end 
-
+  end
 
 kesha_maker(["blake", "ashley", "scott"])
