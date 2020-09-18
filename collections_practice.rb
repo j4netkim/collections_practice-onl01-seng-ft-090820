@@ -48,6 +48,7 @@ kesha_maker(["blake", "ashley", "scott"])
 
 
 def find_a(array)
-
+  array.select {|word| word.start_with?("a")}
+end 
 
 find_a(["apple", "orange", "pear", "avis", "arlo", "ascot"])
