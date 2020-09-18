@@ -39,3 +39,7 @@ end
 
 
   def kesha_maker(array)
+    array.each do
+
+
+kesha_maker(["blake", "ashley", "scott"])
