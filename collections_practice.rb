@@ -45,3 +45,6 @@ end
   end
 
 kesha_maker(["blake", "ashley", "scott"])
+
+
+def find_a(array)
